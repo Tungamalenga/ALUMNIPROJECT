@@ -1,0 +1,14 @@
+extends layout 
+
+block content 
+ form(action='' method='POST')
+  table
+    tr
+      td
+        input(type='email' name='email_address' placeholder='enter email address' required='')
+    tr
+      td
+        input(type='password' name='password' placeholder='enter password' required='')
+    tr
+      td
+        input(type='submit' value='Login')
